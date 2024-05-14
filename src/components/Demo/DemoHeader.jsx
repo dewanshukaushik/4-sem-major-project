@@ -23,7 +23,7 @@ const DemoHeader = () => {
         <Link to={"/"}>
           <img
             className="h-[6.5rem]"
-            src="https://github.com/dewanshukaushik/4-sem-major-project/blob/main/public/icon.png"
+            src="\public\icon.png"
             alt="logo"
           />
         </Link>
