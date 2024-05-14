@@ -30,7 +30,7 @@ const Auth = ({ modal, setModal }) => {
           userId: newUser.uid,
           username: newUser.displayName,
           email: newUser.email,
-          userImg: newUser.photoURL,
+          userImg: newUser.URL,
           bio: "",
         });
         navigate("/");
