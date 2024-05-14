@@ -4,6 +4,11 @@ const Banner = () => {
   return (
     <div className="bg-banner border-b border-black">
       <div className="size py-[5rem] flex flex-col items-start gap-[1rem]">
+      <img
+            className="h-[6.5rem]"
+            src="\public\icon.png"
+            alt="logo"
+          />
         <h1 className="font-title text-[3rem] sm:text-[4rem] md:text-[6rem] font-normal">
           {/* Stay curious. */}
           Uniting Minds Through Expression
