@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/4-sem-major-project",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
