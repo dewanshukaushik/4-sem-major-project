@@ -82,7 +82,7 @@ const Auth = ({ modal, setModal }) => {
           {signReq === "" ? (
             <>
               <h2 className="text-2xl pt-[5rem]">
-                {createUser ? "Join Collablog" : "Welcome Back"}
+                {createUser ? "Join Creative Nexus" : "Welcome Back"}
               </h2>
               <div className="flex flex-col gap-2 w-fit mx-auto">
                 <Button
@@ -116,8 +116,8 @@ const Auth = ({ modal, setModal }) => {
             <SignUp setModal={setModal} setSignReq={setSignReq} />
           ) : null}
           <p className="md:w-[30rem] mx-auto text-center text-sm mb-[3rem]">
-            Click “Sign In” to agree to Collablog’s Terms of Service and
-            acknowledge that Collablog’s Privacy Policy applies to you.
+            Click “Sign In” to agree to Creative Nexus’s Terms of Service and
+            acknowledge that Creative Nexus’s Privacy Policy applies to you.
           </p>
         </div>
       </section>
